@@ -20,8 +20,8 @@ Una API REST simple para gestión de **productos**, creada solamente de práctic
 
 1. Clonar el repositorio:  
    ```bash
-   git clone https://github.com/tu-usuario/apirest-practica.git
-   cd apirest-practica
+   git clone https://github.com/Murasa4/apirest-crud-java.git
+   cd apirest-crud-java
 Crear un archivo .env con las credenciales de la base de datos:
 
 ```postgresql
@@ -75,7 +75,7 @@ Método: GET
 ```json
 {
   "id": 1,
-  "nombre": "Producto A",
+  "nombre": "Producto1",
   "precio": 100.0
 }
 ```
@@ -88,7 +88,7 @@ Método: POST
 ```json
 
 {
-  "nombre": "Producto C",
+  "nombre": "Producto3",
   "precio": 200.0
 }
 ```
@@ -96,7 +96,7 @@ Método: POST
 ```json
 {
   "id": 3,
-  "nombre": "Producto C",
+  "nombre": "Producto3",
   "precio": 200.0
 }
 ```
